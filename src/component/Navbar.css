@@ -1,0 +1,20 @@
+.Navbar {
+  background-color: #87037a;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 14px 16px;
+}
+
+.Navbar a {
+  color: rgb(233, 127, 205);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.Navbar a:hover {
+  border-bottom-color: rgb(233, 127, 205);
+}

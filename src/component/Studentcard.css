@@ -1,0 +1,41 @@
+.card {
+    background-color: rgb(236, 201, 220);
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.card img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h1 {
+    color: #901860;
+    font-size: 1.8rem;
+    margin: 12px 0;
+}
+
+.card p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card button {
+    background-color: #901860;
+    color: rgb(236, 201, 220);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin: 6px 4px 0 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #901860;
+}

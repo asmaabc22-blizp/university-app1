@@ -7,6 +7,7 @@ import Footer from "./component/Footer.jsx";
 import StudentImage from "./assets/etudiant.jpg";
 import StudentImage2 from "./assets/im2.jpg";
 import StudentImage3 from "./assets/img3.jpg";
+import StudentImage4 from "./assets/img4.jpg";
 
 
 
@@ -54,7 +55,7 @@ function App() {
   function ajouterEtudiant() {
     const id = Date.now();
     const nouvelEtudiant = {
-      id,
+      id: 4,
       prenom: "Yassine",
       nom: "Ben Salem",
       groupe: "GLSI 2",
@@ -63,7 +64,8 @@ function App() {
       telephone: "+216 44 444 444",
       filiere: "Génie Logiciel",
       anneeEtude: "2026/2027",
-      image: AmaniImage,
+      image: StudentImage4,
+
     };
     setEtudiants([...etudiants, nouvelEtudiant]);
   }
